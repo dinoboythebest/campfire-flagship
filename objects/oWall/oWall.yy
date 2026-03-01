@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oWallvert",
+  "%Name":"oWall",
   "eventList":[],
   "managed":true,
-  "name":"oWallvert",
+  "name":"oWall",
   "overriddenProperties":[],
   "parent":{
     "name":"news",
     "path":"news.yyp",
   },
-  "parentObjectId":{
-    "name":"oWall",
-    "path":"objects/oWall/oWall.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"sWallvert",
-    "path":"sprites/sWallvert/sWallvert.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

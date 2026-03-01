@@ -1,0 +1,1 @@
+if (instance_exists(oPlayer)) { var dist = point_distance(x, y, oPlayer.x, oPlayer.y); if (dist > 25) { move_towards_point(oPlayer.x, oPlayer.y, 10); } else { speed = 0; } }
