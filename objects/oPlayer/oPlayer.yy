@@ -11,8 +11,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"nqwerty",
-    "path":"nqwerty.yyp",
+    "name":"qwerty",
+    "path":"qwerty.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
