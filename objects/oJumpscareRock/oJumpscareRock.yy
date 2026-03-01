@@ -10,8 +10,8 @@
   "name":"oJumpscareRock",
   "overriddenProperties":[],
   "parent":{
-    "name":"asdf",
-    "path":"asdf.yyp",
+    "name":"Campfire flagship",
+    "path":"Campfire flagship.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
