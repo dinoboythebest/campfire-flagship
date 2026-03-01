@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oStamina",
+  "%Name":"oWallvert",
   "eventList":[],
   "managed":true,
-  "name":"oStamina",
+  "name":"oWallvert",
   "overriddenProperties":[],
   "parent":{
     "name":"Campfire flagship",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sStamina",
-    "path":"sprites/sStamina/sStamina.yy",
+    "name":"sWallvert",
+    "path":"sprites/sWallvert/sWallvert.yy",
   },
   "spriteMaskId":null,
   "visible":true,

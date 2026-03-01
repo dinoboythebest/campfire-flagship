@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oStamina",
-  "eventList":[],
+  "%Name":"oRockEnemy",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oStamina",
+  "name":"oRockEnemy",
   "overriddenProperties":[],
   "parent":{
     "name":"Campfire flagship",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sStamina",
-    "path":"sprites/sStamina/sStamina.yy",
+    "name":"sRockEnemy",
+    "path":"sprites/sRockEnemy/sRockEnemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
