@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oBossworm",
+  "%Name":"oJumpscareOre",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPickaxe","path":"objects/oPickaxe/oPickaxe.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBossworm",
+  "name":"oJumpscareOre",
   "overriddenProperties":[],
   "parent":{
     "name":"Campfire flagship",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sBossWorm",
-    "path":"sprites/sBossWorm/sBossWorm.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

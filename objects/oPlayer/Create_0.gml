@@ -4,5 +4,6 @@ move_sprintdone = false;
 player_health=10;
 sprint_empty = false
 player_max_stamina = 100;
+can_be_hit = true;
 
 

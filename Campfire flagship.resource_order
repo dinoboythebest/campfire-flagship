@@ -3,6 +3,7 @@
   "ResourceOrderSettings":[
     {"name":"oBandage","order":36,"path":"objects/oBandage/oBandage.yy",},
     {"name":"oBossworm","order":33,"path":"objects/oBossworm/oBossworm.yy",},
+    {"name":"oJumpscareOre","order":38,"path":"objects/oJumpscareOre/oJumpscareOre.yy",},
     {"name":"oJumpscareRock","order":18,"path":"objects/oJumpscareRock/oJumpscareRock.yy",},
     {"name":"oLighting","order":13,"path":"objects/oLighting/oLighting.yy",},
     {"name":"oOreEnemy","order":20,"path":"objects/oOreEnemy/oOreEnemy.yy",},
@@ -26,6 +27,7 @@
     {"name":"sBandage","order":35,"path":"sprites/sBandage/sBandage.yy",},
     {"name":"sBossWorm","order":32,"path":"sprites/sBossWorm/sBossWorm.yy",},
     {"name":"sBosswormBackground","order":31,"path":"sprites/sBosswormBackground/sBosswormBackground.yy",},
+    {"name":"sJumpscareOres","order":37,"path":"sprites/sJumpscareOres/sJumpscareOres.yy",},
     {"name":"sJumpscareRock","order":17,"path":"sprites/sJumpscareRock/sJumpscareRock.yy",},
     {"name":"sOreEnemy","order":19,"path":"sprites/sOreEnemy/sOreEnemy.yy",},
     {"name":"sPickaxe","order":14,"path":"sprites/sPickaxe/sPickaxe.yy",},
