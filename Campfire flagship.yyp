@@ -21,6 +21,7 @@
   "resources":[
     {"id":{"name":"oBandage","path":"objects/oBandage/oBandage.yy",},},
     {"id":{"name":"oBossworm","path":"objects/oBossworm/oBossworm.yy",},},
+    {"id":{"name":"oJumpscareOre","path":"objects/oJumpscareOre/oJumpscareOre.yy",},},
     {"id":{"name":"oJumpscareRock","path":"objects/oJumpscareRock/oJumpscareRock.yy",},},
     {"id":{"name":"oLighting","path":"objects/oLighting/oLighting.yy",},},
     {"id":{"name":"oOreEnemy","path":"objects/oOreEnemy/oOreEnemy.yy",},},
@@ -45,6 +46,7 @@
     {"id":{"name":"sBandage","path":"sprites/sBandage/sBandage.yy",},},
     {"id":{"name":"sBossWorm","path":"sprites/sBossWorm/sBossWorm.yy",},},
     {"id":{"name":"sBosswormBackground","path":"sprites/sBosswormBackground/sBosswormBackground.yy",},},
+    {"id":{"name":"sJumpscareOres","path":"sprites/sJumpscareOres/sJumpscareOres.yy",},},
     {"id":{"name":"sJumpscareRock","path":"sprites/sJumpscareRock/sJumpscareRock.yy",},},
     {"id":{"name":"sOreEnemy","path":"sprites/sOreEnemy/sOreEnemy.yy",},},
     {"id":{"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},},
