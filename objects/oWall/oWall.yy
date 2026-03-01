@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oStamina",
+  "%Name":"oWall",
   "eventList":[],
   "managed":true,
-  "name":"oStamina",
+  "name":"oWall",
   "overriddenProperties":[],
   "parent":{
     "name":"Campfire flagship",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sStamina",
-    "path":"sprites/sStamina/sStamina.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

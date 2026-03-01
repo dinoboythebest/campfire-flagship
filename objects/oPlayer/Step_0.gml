@@ -39,33 +39,36 @@ else
 	}
 }
 
-if (place_meeting(x, y, oRockEnemy) &&  alarm[1] <= 0)
-{
-	alarm[1] = 60;
-	player_health -= 1;
-	
-	if(player_health <= 0)
-    {	 
-	   game_end();
-    }
-	
-}
 
-if (place_meeting(x, y, oOreEnemy) &&  alarm[1] <= 0)
-{
-	alarm[1] = 60;
-	player_health -= 1;
-	
+
 	if(player_health <= 0)
     {	 
 	   game_end();
     }
 	
-}
-else
-{}
+	if x>1250 and room=Level1
+	room=Level2
+	
+	if x>=1250 and room=Level2
+	room=Level3
+	
+	if x>1250 and room=Level3
+	room=Level4
+	if x>1250 and room=Level4
+	room=Level5
+	if x>1250 and room=Level5
+	room=Level6
+	if x>1250 and room=Level6
+	room=Level7
+	if x>1250 and room=Level7
+	room=Level8
+	if x>1250 and room=Level8
+	room=Level9
+	if x>1250 and room=Level9
+	room=Level10
+	
 
 
 show_debug_message(move_speed)
 
-move_and_collide(x_input * move_speed, y_input * move_speed, oWallvert);
+move_and_collide(x_input * move_speed, y_input * move_speed, oWall);

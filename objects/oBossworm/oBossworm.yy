@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oStamina",
+  "%Name":"oBossworm",
   "eventList":[],
   "managed":true,
-  "name":"oStamina",
+  "name":"oBossworm",
   "overriddenProperties":[],
   "parent":{
     "name":"Campfire flagship",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sStamina",
-    "path":"sprites/sStamina/sStamina.yy",
+    "name":"sBossWorm",
+    "path":"sprites/sBossWorm/sBossWorm.yy",
   },
   "spriteMaskId":null,
   "visible":true,
