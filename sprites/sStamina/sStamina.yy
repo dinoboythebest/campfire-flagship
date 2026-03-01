@@ -43,8 +43,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"nqwerty",
-    "path":"nqwerty.yyp",
+    "name":"qwerty",
+    "path":"qwerty.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
