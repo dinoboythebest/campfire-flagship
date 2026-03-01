@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"oStamina",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oStamina",
   "overriddenProperties":[],
   "parent":{
-    "name":"idknumber",
-    "path":"idknumber.yyp",
+    "name":"asdf",
+    "path":"asdf.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

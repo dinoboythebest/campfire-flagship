@@ -6,8 +6,8 @@
   "name":"oWallvert",
   "overriddenProperties":[],
   "parent":{
-    "name":"idknumber",
-    "path":"idknumber.yyp",
+    "name":"asdf",
+    "path":"asdf.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
