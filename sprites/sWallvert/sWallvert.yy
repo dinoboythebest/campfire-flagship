@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"idknumber",
-    "path":"idknumber.yyp",
+    "name":"news",
+    "path":"news.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
