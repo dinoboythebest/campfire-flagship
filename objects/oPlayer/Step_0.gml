@@ -45,7 +45,7 @@ if (place_meeting(x, y, oRockEnemy) &&  alarm[1] <= 0)
 	player_health -= 1;
 	
 	if(player_health <= 0)
-    {	
+    {	 
 	   game_end();
     }
 	

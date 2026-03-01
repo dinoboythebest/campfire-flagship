@@ -11,8 +11,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"qwerty",
-    "path":"qwerty.yyp",
+    "name":"Campfire flagship",
+    "path":"Campfire flagship.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oWallhor",
+  "%Name":"oOreEnemy",
   "eventList":[],
   "managed":true,
-  "name":"oWallhor",
+  "name":"oOreEnemy",
   "overriddenProperties":[],
   "parent":{
     "name":"Campfire flagship",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sWallhor",
-    "path":"sprites/sWallhor/sWallhor.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
