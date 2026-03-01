@@ -43,8 +43,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Campfire flagship",
-    "path":"Campfire flagship.yyp",
+    "name":"campfire flagshipv2",
+    "path":"campfire flagshipv2.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
