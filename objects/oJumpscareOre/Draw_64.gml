@@ -1,3 +1,3 @@
-// This draws the scary sprite on top of the darkness
-// 0, 0 is the top-left corner of your screen
-draw_sprite(sJumpscareOres, 0, 0, 0);
+// Draw your scary sprite centered on the screen
+// Replace 'spr_scary_face' with your actual sprite name
+draw_sprite_stretched(sJumpscareOres, 0, 0, 0, display_get_gui_width(), display_get_gui_height());

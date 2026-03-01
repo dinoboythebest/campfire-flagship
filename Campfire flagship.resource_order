@@ -3,7 +3,7 @@
   "ResourceOrderSettings":[
     {"name":"oBandage","order":36,"path":"objects/oBandage/oBandage.yy",},
     {"name":"oBossworm","order":33,"path":"objects/oBossworm/oBossworm.yy",},
-    {"name":"oJumpscareOre","order":38,"path":"objects/oJumpscareOre/oJumpscareOre.yy",},
+    {"name":"oJumpscareOre","order":39,"path":"objects/oJumpscareOre/oJumpscareOre.yy",},
     {"name":"oJumpscareRock","order":18,"path":"objects/oJumpscareRock/oJumpscareRock.yy",},
     {"name":"oLighting","order":13,"path":"objects/oLighting/oLighting.yy",},
     {"name":"oOreEnemy","order":20,"path":"objects/oOreEnemy/oOreEnemy.yy",},
