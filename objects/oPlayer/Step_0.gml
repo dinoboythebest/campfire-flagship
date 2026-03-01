@@ -38,14 +38,10 @@ else
 		
 	}
 }
-
-
-
-	if(player_health <= 0)
-    {	 
-	   game_end();
-    }
-	
+if (player_health <= 0)
+{
+	game_end();
+}
 	
 	// If the player walks past the 1250 mark
 if (x > 1250) {
@@ -62,3 +58,6 @@ if (x > 1250) {
 show_debug_message(move_speed)
 
 move_and_collide(x_input * move_speed, y_input * move_speed, oWall);
+// This stops the stretching glitch!
+// It keeps health between 0 and 10.
+player_health = clamp(player_health, 0, 10);

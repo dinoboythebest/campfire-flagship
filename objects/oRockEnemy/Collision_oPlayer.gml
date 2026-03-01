@@ -17,6 +17,6 @@ with(oPlayer) {
 		
 	}
 	
-    speed = 0;
+
     Follow_speed = 0; // If you have a movement variable
 }
