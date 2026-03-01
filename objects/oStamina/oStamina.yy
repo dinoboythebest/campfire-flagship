@@ -6,8 +6,8 @@
   "name":"oStamina",
   "overriddenProperties":[],
   "parent":{
-    "name":"Campfire flagship",
-    "path":"Campfire flagship.yyp",
+    "name":"campfire flagshipv2",
+    "path":"campfire flagshipv2.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sStamina",
+    "path":"sprites/sStamina/sStamina.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

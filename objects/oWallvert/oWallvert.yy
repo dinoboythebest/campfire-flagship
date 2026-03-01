@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oWallhor",
+  "%Name":"oWallvert",
   "eventList":[],
   "managed":true,
-  "name":"oWallhor",
+  "name":"oWallvert",
   "overriddenProperties":[],
   "parent":{
     "name":"campfire flagshipv2",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWallhor",
-    "path":"sprites/sWallhor/sWallhor.yy",
+    "name":"sWallvert",
+    "path":"sprites/sWallvert/sWallvert.yy",
   },
   "spriteMaskId":null,
   "visible":true,

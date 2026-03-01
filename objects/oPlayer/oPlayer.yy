@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oWallhor",
-  "eventList":[],
+  "%Name":"oPlayer",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oWallhor",
+  "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
     "name":"campfire flagshipv2",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWallhor",
-    "path":"sprites/sWallhor/sWallhor.yy",
+    "name":"sPlayer",
+    "path":"sprites/sPlayer/sPlayer.yy",
   },
   "spriteMaskId":null,
   "visible":true,
