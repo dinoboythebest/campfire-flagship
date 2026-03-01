@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"campfire flagshipv2",
-    "path":"campfire flagshipv2.yyp",
+    "name":"idknumber",
+    "path":"idknumber.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

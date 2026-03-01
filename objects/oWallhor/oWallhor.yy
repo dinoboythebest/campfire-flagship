@@ -6,8 +6,8 @@
   "name":"oWallhor",
   "overriddenProperties":[],
   "parent":{
-    "name":"campfire flagshipv2",
-    "path":"campfire flagshipv2.yyp",
+    "name":"idknumber",
+    "path":"idknumber.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
