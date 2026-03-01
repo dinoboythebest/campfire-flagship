@@ -35,8 +35,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"Campfire flagship",
-    "path":"Campfire flagship.yyp",
+    "name":"campfire flagshipv2",
+    "path":"campfire flagshipv2.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{
