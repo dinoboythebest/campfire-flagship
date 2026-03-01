@@ -1,6 +1,6 @@
-if(keyboard_check(ord("E")) && alarm[1] = 60)
+if(keyboard_check(ord("z")) && alarm[1] = 10)
 {
-	boss_hp -= 1;
-	alarm[1] = 60;
+	boss_hp -= 5;
+	alarm[1] = 10;
 }
 

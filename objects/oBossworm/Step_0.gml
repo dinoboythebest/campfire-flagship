@@ -1,39 +1,67 @@
+// --- 1. SETUP TARGETS ---
+var target = instance_find(oPlayer, 0);
 
-var choice = attack_mode[irandom(array_length(attack_mode) - 1)];
-instance_find(oPlayer, 0);
-
-
-if (gamble_moveset && alarm[0] == 300) 
+// --- 2. PICKING ATTACKS (ALARM 0) ---
+if (gamble_moveset && alarm[0] <= 0) 
 { 
-	alarm[0] = 60; choice = attack_mode[irandom(array_length(attack_mode) - 1)];
+    choice = attack_mode[irandom(array_length(attack_mode) - 1)];
+    alarm[0] = 180; 
 }
 
-
-if(choice == 0)
+// --- 3. EXECUTING ATTACKS (SLOW) ---
+if (instance_exists(target)) 
 {
-   if (instance_exists(oPlayer))
-   {
-	   var dist = point_distance(x, y, oPlayer.x, oPlayer.y);
-	   if (dist > 25) { move_towards_point(oPlayer.x, oPlayer.y, 10);
-   }
-   else 
-   {
-	   speed = 0; 
-	   
-	   } }
+    if (choice == "charge") 
+    {
+        move_towards_point(target.x, target.y, move_speed);
+    }
+
+    if (choice == "spawn") 
+    {
+        speed = 0; 
+        if (irandom(100) > 98) {
+            instance_create_depth(target.x, target.y, depth, oOreEnemy);
+        }
+    }
+
+    if (choice == "rampage") 
+    {
+        speed = 0; 
+        angle += 1.5; 
+        var radius = 180; 
+        x = target.x + lengthdir_x(radius, angle);
+        y = target.y + lengthdir_y(radius, angle);
+    }
 }
 
-if(choice == 1)
+// --- 4. PLAYER HITTING BOSS (KEY: Z | RANGE: 50) ---
+if (instance_exists(target))
 {
-	instance_create_depth(oPlayer.x -10, oPlayer.y + 10, depth, oOreEnemy)
+    var dist_to_player = point_distance(x, y, target.x, target.y);
+    
+    // Changed ord("E") to ord("Z")
+    if (dist_to_player <= 50 && keyboard_check_pressed(ord("Z")))
+    {
+        boss_hp -= 10;
+        image_blend = c_red; 
+        alarm[1] = 5;        
+        
+        if (boss_hp <= 0) instance_destroy(); 
+    }
 }
 
-if(choice == 2)
+// --- 5. BOSS HITTING PLAYER ---
+if (instance_exists(target) && place_meeting(x, y, target)) 
 {
-	angle += 4;
-	var radius = 200; 
-	x = oPlayer.x + lengthdir_x(radius, angle);
-	y = oPlayer.y + lengthdir_y(radius, angle);
+    if (target.can_be_hit) 
+    {
+        target.player_health -= 1; 
+        target.can_be_hit = false;
+        target.alarm[0] = 60; 
+        
+        target.image_blend = c_red; 
+        var dir = point_direction(x, y, target.x, target.y);
+        target.x += lengthdir_x(12, dir); 
+        target.y += lengthdir_y(12, dir);
+    }
 }
-
-
