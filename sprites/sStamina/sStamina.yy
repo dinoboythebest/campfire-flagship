@@ -43,8 +43,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"qwerty",
-    "path":"qwerty.yyp",
+    "name":"Campfire flagship",
+    "path":"Campfire flagship.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
