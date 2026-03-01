@@ -13,8 +13,8 @@
   ],
   "name":"Room2",
   "parent":{
-    "name":"asdf",
-    "path":"asdf.yyp",
+    "name":"new_new_new_new",
+    "path":"new_new_new_new.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

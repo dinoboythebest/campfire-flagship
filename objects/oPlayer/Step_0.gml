@@ -66,6 +66,7 @@ else
 {}
 
 
+
 show_debug_message(move_speed)
 
 move_and_collide(x_input * move_speed, y_input * move_speed, oWallvert);

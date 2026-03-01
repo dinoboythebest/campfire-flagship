@@ -11,13 +11,10 @@
   "name":"oWeapon",
   "overriddenProperties":[],
   "parent":{
-    "name":"asdf",
-    "path":"asdf.yyp",
+    "name":"new_new_new_new",
+    "path":"new_new_new_new.yyp",
   },
-  "parentObjectId":{
-    "name":"oPlayer",
-    "path":"objects/oPlayer/oPlayer.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

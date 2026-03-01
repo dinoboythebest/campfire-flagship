@@ -6,8 +6,8 @@
   "name":"oWallvert",
   "overriddenProperties":[],
   "parent":{
-    "name":"asdf",
-    "path":"asdf.yyp",
+    "name":"new_new_new_new",
+    "path":"new_new_new_new.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
