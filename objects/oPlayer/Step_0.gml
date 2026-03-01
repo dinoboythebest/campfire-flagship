@@ -39,6 +39,21 @@ else
 	}
 }
 
+if (place_meeting(x, y, oRockEnemy) &&  alarm[1] <= 0)
+{
+	alarm[1] = 60;
+	player_health -= 1;
+	
+	if(player_health <= 0)
+    {	
+	   game_end();
+    }
+	
+}
+else
+{}
+
+
 show_debug_message(move_speed)
 
 move_and_collide(x_input * move_speed, y_input * move_speed, oWallvert);

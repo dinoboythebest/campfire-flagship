@@ -9,4 +9,6 @@ if instance_exists(oPlayer)
 	{
 		follow_speed = 0;
 	}
+	
+	
 }

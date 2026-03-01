@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"idknumber",
-    "path":"idknumber.yyp",
+    "name":"nqwerty",
+    "path":"nqwerty.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

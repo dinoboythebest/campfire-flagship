@@ -9,8 +9,8 @@
   "name":"oRockEnemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"idknumber",
-    "path":"idknumber.yyp",
+    "name":"nqwerty",
+    "path":"nqwerty.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
