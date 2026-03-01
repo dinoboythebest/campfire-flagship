@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"news",
-    "path":"news.yyp",
+    "name":"asdf",
+    "path":"asdf.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
