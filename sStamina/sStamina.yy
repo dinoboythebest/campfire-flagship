@@ -43,8 +43,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"asdf",
-    "path":"asdf.yyp",
+    "name":"idknumber",
+    "path":"idknumber.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
