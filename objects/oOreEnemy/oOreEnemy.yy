@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oRockEnemy",
+  "%Name":"oOreEnemy",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oWeapon","path":"objects/oWeapon/oWeapon.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oRockEnemy",
+  "name":"oOreEnemy",
   "overriddenProperties":[],
   "parent":{
     "name":"asdf",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sRockEnemy",
-    "path":"sprites/sRockEnemy/sRockEnemy.yy",
+    "name":"sOreEnemy",
+    "path":"sprites/sOreEnemy/sOreEnemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

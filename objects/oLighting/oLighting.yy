@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oStamina",
-  "eventList":[],
+  "%Name":"oLighting",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oStamina",
+  "name":"oLighting",
   "overriddenProperties":[],
   "parent":{
     "name":"asdf",
@@ -27,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sStamina",
-    "path":"sprites/sStamina/sStamina.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
