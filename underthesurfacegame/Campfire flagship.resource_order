@@ -1,0 +1,8 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"sOreEnemy","order":3,"path":"sprites/sOreEnemy/sOreEnemy.yy",},
+    {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"sRockenemy","order":2,"path":"sprites/sRockenemy/sRockenemy.yy",},
+  ],
+}
